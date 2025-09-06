@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for evreryone</title>
+    <link
+      rel="icon"
+      href="/MiniProject/img/Spotify_Primary_Logo_RGB_Green.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="container">
+        <div class="left">
+          <div class="logo">
+            <img src="/MiniProject/img/spotify.jpg" alt="spotify img" />
+          </div>
+          <h1 class="spotify">Spotify</h1>
+          <button class="home">
+            <img src="/MiniProject/img/icons8-home.svg" alt="" />
+          </button>
+          <div class="searchbar">
+            <img src="/MiniProject/img/icons8-search.svg" alt="" />
+            <input type="text" placeholder="what do you want to play ?" />
+            <p class="line"></p>
+            <i class="fa-solid fa-window-restore"></i>
+          </div>
+        </div>
+        <div class="right">
+          <span>Premium</span>
+          <span>Support</span>
+          <span>Download</span>
+
+          <span class="line"></span>
+          <a href=""
+            ><span class="text"
+              ><i class="fa-regular fa-circle-down"></i> Install App</span
+            ></a
+          >
+          <span class="text">Sign up</span>
+          <button class="login">Log in</button>
+        </div>
+      </nav>
+    </header>
+    <section class="main-container">
+      <aside class="sidebar">
+        <div class="sidebar-library">
+          <div class="sidebar-1">
+            <h3>Your Library</h3>
+            <button><i class="fa-solid fa-plus"></i></button>
+          </div>
+        </div>
+        <div class="scroll">
+          <section class="playlist">
+            <span>Create your first playlist</span>
+            <span class="text">it's easy,we'll help you</span>
+            <span><button>Create playlist</button></span>
+          </section>
+          <section class="find">
+            <h3>Let's find some podcast to follow</h3>
+            <p class="find-text">
+              we'll keep you updated on new<br />
+              episodes
+            </p>
+            <button>Browse podcasts</button>
+          </section>
+        </div>
+
+        <div class="info">
+          <div class="policy">
+            <a href="#">Legal</a>
+
+            <a href="#">Safety & Privacy Center</a>
+            <br />
+            <a href="#">Privacy policy</a>
+
+            <a href="#">Cookies</a>
+
+            <a href="#">About Ads</a>
+            <br />
+            <a href="#">Accessibility</a>
+            <br />
+            <a href="#">Cookies</a>
+          </div>
+          <div class="Lan-button">
+            <button><i class="fa-solid fa-earth-americas"></i>English</button>
+          </div>
+        </div>
+      </aside>
+      <main class="main">
+        <div class="main-content">
+          <div class="heading artist">
+            <h1 class="trending-header">Trending Songs</h1>
+            <p class="show">show all</p>
+          </div>
+
+          <!-- <div class="arrow arrow-left">
+            <button><i class="fa-solid fa-arrow-left"></i></button>
+          </div> -->
+          <div class="card">
+            <div class="cards">
+              <img src="/MiniProject/img/download (23).jpeg" alt="" />
+              <audio
+                src="/MiniProject/audio/Tera Zikr - Darshan Raval(KoshalWorld.Com).mp3"
+              ></audio>
+              <p class="song-name">Tera Zikr</p>
+              <p class="actor-name">Darshan Raval</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards">
+              <img
+                src="https://img.freepik.com/free-psd/club-dj-party-post-social-media-template_505751-3256.jpg"
+                alt=""
+              />
+              <p class="song-name">Let's Dance</p>
+              <p class="actor-name">Elliy Made</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards">
+              <img
+                src="https://i.ytimg.com/vi/hCENQoPegyI/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGH8gHygqMA8=&rs=AOn4CLDK-n-RBBxF0-wv9uUlDnZDjOOh0w"
+                alt=""
+              />
+              <p class="song-name">Love Begins</p>
+              <p class="actor-name">Dua Lipa</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards">
+              <img src="/MiniProject/img/download (22).jpeg" alt="saiyaara" />
+              <audio
+                src="/MiniProject/audio/Saiyaara(KoshalWorld.Com).mp3"
+                type="audio/mpeg"
+              ></audio>
+              <p class="song-name">Shape of You</p>
+              <p class="actor-name">Krish Kapoor</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards">
+              <img
+                src="https://d1csarkz8obe9u.cloudfront.net/themedlandingpages/tlp_hero_album-cover-art-73ab5b3d9b81f442cb2288630ab63acf.jpg?ts%20=%201754037710"
+                alt=""
+              />
+              <p class="song-name">Fear</p>
+              <p class="actor-name">Adam crish</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoX1XGWZEeItdhH6CjSoOLchJ81eS3ESfokGkHQ6M0gsoFELLL-Q1nlMtmfqpmGT_gn58&usqp=CAU"
+                alt=""
+              />
+              <p class="song-name">Fear</p>
+              <p class="actor-name">Shadow</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3hn5QLkoD-X3FEmou0V64q4hO_md-2ZFXL4Dd1CMcVC0LN3UB9ON7qcwHLx3ifD4jJYM&usqp=CAU"
+                alt=""
+              />
+              <p class="song-name">Fear</p>
+              <p class="actor-name">Leo</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Tbye5FJ36cZ10rJKUnTaBm_UjxKECPjDzY5POKQjti7UsD0slUZVSJql2thCbc1O7UA&usqp=CAU"
+                alt=""
+              />
+              <p class="song-name">Fear</p>
+              <p class="actor-name">Lion</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards">
+              <img
+                src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/love-song-free-album-cover-%287%29-design-template-79796db8fb6bc88d4c16ac15994e651e_screen.jpg?ts=1689562844"
+                alt=""
+              />
+              <p class="song-name">Fear</p>
+              <p class="actor-name">Herry</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh5K0WEF6EtjPmQAQoeqP9-tspwAwUx6uUMTMd1MYUmhg-_dSqxAGpx2w6_lLYb8OK5PU&usqp=CAU"
+                alt=""
+              />
+              <p class="song-name">Fear</p>
+              <p class="actor-name">Pole</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards">
+              <img
+                src="https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/99/72/da/9972da0d-d4e3-47ca-4fa7-cd319261e6fc/859715622782_cover.jpg/400x400bb.webp"
+                alt=""
+              />
+              <p class="song-name">Best of</p>
+              <p class="actor-name">Deloy</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards">
+              <img
+                src="https://c.saavncdn.com/717/Front-Page-English-2019-20190912174039-500x500.jpg"
+                alt=""
+              />
+              <p class="song-name">Lily</p>
+              <p class="actor-name">Billi</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+          </div>
+          <!-- <div class="arrow arrow-right">
+            <button><i class="fa-solid fa-arrow-right"></i></button>
+          </div> -->
+
+          <div class="heading top">
+            <h1 class="tag">Popular Artist</h1>
+          </div>
+
+          <div class="card">
+            <div class="cards round">
+              <img src="/MiniProject/img/download (1).jpeg" alt="" />
+              <p class="song-name">Pritam</p>
+              <p class="actor-name">Artist</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards round">
+              <img src="/MiniProject/img/download (2).jpeg" alt="" />
+              <p class="song-name">Shreya Goshal</p>
+              <p class="actor-name">Artist</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards round">
+              <img src="/MiniProject/img/download (6).jpeg" alt="" />
+              <p class="song-name">Kishore Kumar</p>
+              <p class="actor-name">Artist</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards round">
+              <img src="/MiniProject/img/download (4).jpeg" alt="" />
+              <p class="song-name">Darshan Raval</p>
+              <p class="actor-name">Artist</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards round">
+              <img src="/MiniProject/img/download.jpeg" alt="" />
+              <p class="song-name">Arjit Singh</p>
+              <p class="actor-name">Artist</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards round">
+              <img src="/MiniProject/img/download (8).jpeg" alt="" />
+              <p class="song-name">Justin Bieber</p>
+              <p class="actor-name">Artist</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards round">
+              <img src="/MiniProject/img/images (1).jpeg" alt="" />
+              <p class="song-name">Ronaldo</p>
+              <p class="actor-name">Artist</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards round">
+              <img src="/MiniProject/img/download (35).jpeg" alt="" />
+              <p class="song-name">Nick Jonas</p>
+              <p class="actor-name">Artist</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards round">
+              <img src="/MiniProject/img/images (3).jpeg" alt="" />
+              <p class="song-name">Dark</p>
+              <p class="actor-name">Artist</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards round">
+              <img src="/MiniProject/img/images (4).jpeg" alt="" />
+              <p class="song-name">Pritam</p>
+              <p class="actor-name">Artist</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards round">
+              <img src="/MiniProject/img/download (34).jpeg" alt="" />
+              <p class="song-name">Billie Eilish</p>
+              <p class="actor-name">Artist</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards round">
+              <img src="/MiniProject/img/download (30).jpeg" alt="" />
+              <p class="song-name">Arman Malik</p>
+              <p class="actor-name">Artist</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+          </div>
+
+          <div class="heading top">
+            <h1 class="tag">Popular albums and singles</h1>
+          </div>
+
+          <div class="card">
+            <div class="cards">
+              <img src="/MiniProject/img/download (11).jpeg" alt="" />
+              <p class="song-name">Aashiqui 2</p>
+              <p class="actor-name">Mithoon, Ankit Tiwari</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards">
+              <img src="/MiniProject/img/download (15).jpeg" alt="" />
+              <p class="song-name">Ye jawani hai diwani</p>
+              <p class="actor-name">Pritam</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards">
+              <img src="/MiniProject/img/download (16).jpeg" alt="" />
+              <p class="song-name">Sanam Teri Kasam</p>
+              <p class="actor-name">Himesh Reshammiya</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards">
+              <img src="/MiniProject/img/download (17).jpeg" alt="" />
+              <p class="song-name">Hanuman</p>
+              <p class="actor-name">Jay Shri Ram</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards">
+              <img src="/MiniProject/img/download (20).jpeg" alt="" />
+              <p class="song-name">The Nun</p>
+              <p class="actor-name">Horror</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards">
+              <img src="/MiniProject/img/download (19).jpeg" alt="" />
+              <p class="song-name">1920</p>
+              <p class="actor-name">Horror</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVgdxcKSsEzzUjgEIFyRcW3oumMFGBCK_kPw&s"
+                alt=""
+              />
+              <p class="song-name">War</p>
+              <p class="actor-name">Action</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCSEPTIrvv8DxvKSdDec-1KhwErePCyy-E-Q&s"
+                alt=""
+              />
+              <p class="song-name">Jumanji</p>
+              <p class="actor-name">Action</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIm15WBhxRbY1R-kNOUJ58MZ2A7unZ0Pv3GQ&s"
+                alt=""
+              />
+              <p class="song-name">Monster HUnt</p>
+              <p class="actor-name">Horror</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDiORSzr5s0fRGdNuyN454Utq2fCxrMuOpRw&s"
+                alt=""
+              />
+              <p class="song-name">Pollukatu</p>
+              <p class="actor-name">Love Story</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl9aHqZZZ1C2NtnqpkLHF3QPpimfS0UYLEkQ&s"
+                alt=""
+              />
+              <p class="song-name">Avtar</p>
+              <p class="actor-name">Action</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="cards last">
+              <img src="/MiniProject/img/images (8).jpeg" alt="" />
+              <p class="song-name">THursday Murder</p>
+              <p class="actor-name">Thriller</p>
+              <button class="play"><i class="fa-solid fa-play"></i></button>
+            </div>
+          </div>
+
+          <div class="hr">
+            <hr />
+          </div>
+
+          <footer>
+            <div class="footer">
+              <div class="items">
+                <h4>Company</h4>
+                <ul>
+                  <li><a href="">About</a></li>
+                  <li><a href="">Jobs</a></li>
+                  <li><a href="">For the Record</a></li>
+                </ul>
+              </div>
+              <div class="items">
+                <h4>Communities</h4>
+                <ul>
+                  <li><a href="">For Artist</a></li>
+                  <li><a href="">Developer</a></li>
+                  <li><a href="">Advertising</a></li>
+                  <li><a href="">Investors</a></li>
+                  <li><a href="">Vendors</a></li>
+                </ul>
+              </div>
+              <div class="items">
+                <h4>Useful Links</h4>
+                <ul>
+                  <li><a href="">Support</a></li>
+                  <li><a href="">For Mobile App</a></li>
+                  <li><a href="">Popular by Country</a></li>
+                  <li><a href="">Import your music</a></li>
+                </ul>
+              </div>
+              <div class="items">
+                <h4>Spotify Plans</h4>
+                <ul>
+                  <li><a href="">Premium Individual</a></li>
+                  <li><a href="">Premium Duo</a></li>
+                  <li><a href="">Premium Family</a></li>
+                  <li><a href="">Premium Student</a></li>
+                  <li><a href="">Spotify Free</a></li>
+                </ul>
+              </div>
+              <div class="icons">
+                <button class="social">
+                  <i class="fa-brands fa-instagram"></i>
+                </button>
+                <button class="social">
+                  <i class="fa-brands fa-twitter"></i>
+                </button>
+                <button class="social">
+                  <i class="fa-brands fa-facebook"></i>
+                </button>
+              </div>
+            </div>
+            <hr />
+            <div class="end">
+              <p><i class="fa-solid fa-copyright"></i>2025SpotifyAB</p>
+            </div>
+          </footer>
+        </div>
+      </main>
+    </section>
+    <div class="ads">
+      <div class="bottom-left">
+        <p class="text">Preview of Spotify</p>
+        <p>
+          Sign up to get unlimited songs and podcasts with occasional ads.No
+          credit card needed.
+        </p>
+      </div>
+      <div class="bottom-right">
+        <button class="signup">Sign up free</button>
+      </div>
+    </div>
+
+    <script src="Script.js"></script>
+  </body>
+</html>
